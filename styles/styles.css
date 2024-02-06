@@ -1,0 +1,111 @@
+@font-face
+ {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/ptsans-400.woff2") format ("woff2");
+  font-display: swap;
+  }
+  @font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: url("fonts/ptsans-700.woff2") format ("woff2");
+    font-display: swap;
+    }
+    @font-face {
+      font-family: "PT Sans";
+      font-style: italic;
+      font-weight: 400;
+      src: url("fonts/ptsans-400.woff2") format ("woff2");
+      font-display: swap;
+      }
+      @font-face {
+        font-family: "PT Sans";
+        font-style: italic;
+        font-weight: 700;
+        src: url("fonts/ptsans-700.woff2") format ("woff2");
+        font-display: swap;
+        }
+        body {
+      font-family: "PT Sans", sans-serif;
+      font-size: 18px;
+      line-height: 21px;
+      color: #333333;
+      background-color: #ffffff;
+      }
+      .main-header {
+        color: black;
+        background-color: #ffffff;
+        }
+        .navigation-list {
+          list-style-type: none;
+        }
+        .navigation-link {
+        font-family: "PT Sans", sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 24px;
+        text-align: left;
+        text-transform: capitalize;
+        text-decoration: none;
+        color: inherit;
+        background-color: #ffffff;
+        }
+        .visually-hidden {
+          position: absolute;
+          width: 1px;
+          height: 1px;
+          margin: -1px;
+          border: 0;
+          padding: 0;
+          white-space: nowrap;
+          clip-path: inset(100%);
+          clip: rect(0 0 0 0);
+          overflow: hidden;
+        }
+
+        .navigation-button {
+          font-family: "PT Sans", sans-serif;
+          font-size: 16px;
+          line-height: 20px;
+          font-weight: 700;
+          text-align: center;
+          color: #ffffff;
+          background-color: brown;
+          text-decoration: none;
+          text-transform: uppercase;
+        }
+
+        .main-index {
+          background-image: url("../images/main-background.jpg");
+          /*background-size: 100% auto;*/
+          background-repeat: no-repeat;
+        }
+
+        .adventages-slogan {
+          font-size: 30px;
+          font-weight: 700;
+          line-height: 36px;
+          text-align: center;
+          text-transform: uppercase;
+        }
+
+        .adventages-list {
+          list-style-type: none;
+        }
+        .adventages-item {
+          width: 400px;
+          height: 385px;
+          background-color: #82b3d3;
+          color:#ffffff
+          }
+        .adventages-item-road {
+          background-color: rgba(131, 179, 211, 0.2);
+          color: black;
+        }
+        .adventages-item-square,
+        .adventages-item-tourist {
+          background-color: rgba(131, 179, 211, 0.12);
+          color: black;
+        }
