@@ -4,9 +4,12 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
 
   <body>
+    <div class="background-main">
+
 
     <header class="main-header">
       <nav class="navigation">
@@ -21,6 +24,7 @@
             <a class="navigation-link" href="#">О седоне</a>
           </li>
           <li class="navigation-item">
+
             <a class="navigation-link" href="catalog.html">Гостиницы</a>
           </li>
         </ul>
@@ -37,7 +41,7 @@
             </a>
           </li>
         </ul>
-        <button class="navigation-button" type="button">Хочу сюда!</button>
+        <button class="button button-navigation" type="button">Хочу сюда!</button>
       </nav>
     </header>
 
@@ -50,28 +54,28 @@
 
       <section class="adventages">
         <h2 class="visually-hidden">Преимущества</h2>
-        <p class="adventages-slogan"><b>Седона — небольшой городок в Аризоне,заслуживающий большего!</b></p>
-        <p>Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
+        <p class="adventages-slogan-cedona">Седона — небольшой городок в Аризоне,заслуживающий большего!</p>
+        <p class="adventages-cedona">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
         <ul class="adventages-list">
           <li class="adventages-item">
             <h3 class="adventages-title-color">Настоящий городок</h3>
             <p class="adventages-discription">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
-            <img class="mountains" src="images/main-mountains-oilytown-1.jpg" width="800" height="385" alt="Горы-на фоне городка">
+            <img class="adventages-mountains-oilytown" src="images/main-mountains-oilytown-1.jpg" width="800" height="385" alt="Горы-на фоне городка">
           </li>
-          <li class="adventages-item">
+          <li class="adventages-item adventages-item-square">
             <h3 class="adventages-title-color">Небольшая площадь</h3>
             <p class="adventages-discription">Все достопримечательности находятся очень близко</p>
           </li>
-          <li class="adventages-item">
+          <li class="adventages-item adventages-item-road">
             <h3 class="adventages-title-color">Красивая дорога</h3>
             <p class="adventages-discription">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
           </li>
-          <li class="adventages-item">
+          <li class="adventages-item adventages-item-tourist">
             <h3 class="adventages-title-color">Мало туристов</h3>
             <p class="adventages-discription">Большинство едет в Гранд Каньон и толпится там</p>
           </li>
           <li class="adventages-item">
-            <img class="mountains" src="images/main-devil's gorge mountains-2.jpg" width="800" height="385" alt="Горы-мост дьявола">
+            <img class="adventages-mountains" src="images/main-devil's gorge mountains-2.jpg" width="800" height="385" alt="Горы-мост дьявола">
             <h3 class="adventages-title-color">Там есть мост дьявола</h3>
             <p class="adventages-discription">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
           </li>
@@ -80,19 +84,19 @@
 
       <section class="service">
         <h2 class="visually-hidden">Сервис</h2>
-        <p class="serice-slogan"><b>Приезжайте в Седону отдохнуть в комфорте и уюте!</b></p>
-        <p>Опытный персонал и качественное обслуживание!</p>
+        <p class="service-slogan-cedona">Приезжайте в Седону отдохнуть в комфорте и уюте!</p>
+        <p class="service-slogan">Опытный персонал и качественное обслуживание!</p>
         <ul class="service-list">
-          <li class="service-item">
-            <h3 class="service-name-housing">Жильё</h3>
+          <li class="service-item service-name-housing">
+            <h3 class="service-title-color">Жильё</h3>
             <p class="service-discription">Рекомендуем пожить в настоящем мотеле,всё как в кино!</p>
           </li>
-          <li class="service-item">
-            <h3 class="service-name-meal">Еда</h3>
+          <li class="service-item service-item-meal ">
+            <h3 class="service-title-color">Еда</h3>
             <p class="service-discription">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
           </li>
-          <li class="service-item">
-            <h3 class="service-name-souvenirs">Сувениры</h3>
+          <li class="service-item service-name-souvenirs">
+            <h3 class="service-title-color">Сувениры</h3>
             <p class="service-discription">Не только китайского,но и настоящего местного производства!</p>
           </li>
         </ul>
@@ -100,11 +104,12 @@
 
       <section class="choosing-hotel">
         <h2 class="visually-hidden">Выбор гостиницы</h2>
-        <b>Заинтересовались?</b>
-        <p>Укажите предполагаемые даты поездки,и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-        <button class="button" type="button">поиск гостиницы в седоне</button>
+        <p class="choosing-hotel-interest">Заинтересовались?</p>
+        <p class="choosing-hotel-choice">Укажите предполагаемые даты поездки,и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+        <button class="button button-choosing-hotel" type="button">поиск гостиницы в седоне</button>
       </section>
     </main>
+
 
     <footer class="page-footer">
       <section class="footer-letter">
@@ -113,7 +118,7 @@
         <form class="footer-letter-form" action="https://echo.htmlacademy.ru/" method="post">
           <label for="letter-email" class="visually-hidden">Ваш e-mail</label>
           <input class="field" placeholder="Ваш e-mail" type="email" name="letter-email" id="letter-email" required>
-          <button class="letter-button" type="submit">подписаться</button>
+          <button class="button button-letter" type="submit">подписаться</button>
         </form>
       </section>
 
@@ -150,6 +155,7 @@
         </a>
       </section>
     </footer>
+  </div>
 
   </body>
 
