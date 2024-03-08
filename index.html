@@ -10,7 +10,6 @@
   <body>
     <div class="background-main">
 
-
     <header class="main-header">
       <nav class="navigation">
         <a class="navigation-logo" href="index.html" aria-current="page">
@@ -57,9 +56,11 @@
         <p class="adventages-slogan-cedona">Седона — небольшой городок в Аризоне,заслуживающий большего!</p>
         <p class="adventages-cedona">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
         <ul class="adventages-list">
-          <li class="adventages-item">
-            <h3 class="adventages-title-color">Настоящий городок</h3>
-            <p class="adventages-discription">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+          <li class="adventages-item adventages-item-img">
+            <div class="adventages-item">
+               <h3 class="adventages-title-color">Настоящий городок</h3>
+               <p class="adventages-discription">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+            </div>
             <img class="adventages-mountains-oilytown" src="images/main-mountains-oilytown-1.jpg" width="800" height="385" alt="Горы-на фоне городка">
           </li>
           <li class="adventages-item adventages-item-square">
@@ -74,10 +75,12 @@
             <h3 class="adventages-title-color">Мало туристов</h3>
             <p class="adventages-discription">Большинство едет в Гранд Каньон и толпится там</p>
           </li>
-          <li class="adventages-item">
+          <li class="adventages-item adventages-item-img">
             <img class="adventages-mountains" src="images/main-devil's gorge mountains-2.jpg" width="800" height="385" alt="Горы-мост дьявола">
-            <h3 class="adventages-title-color">Там есть мост дьявола</h3>
-            <p class="adventages-discription">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+              <div class="adventages-item">
+                <h3 class="adventages-title-color">Там есть мост дьявола</h3>
+                <p class="adventages-discription">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+              </div>
           </li>
         </ul>
       </section>
@@ -112,18 +115,20 @@
 
 
     <footer class="page-footer">
-      <div class="page-footer-conteiner">
+
       <section class="footer-letter">
-        <h2 class="page-footer-title">Подпишитесь на рассылку</h2>
-        <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
+        <div class="footer-letter-title">
+          <h2 class="page-footer-title">Подпишитесь на рассылку</h2>
+          <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
+        </div>
         <form class="footer-letter-form" action="https://echo.htmlacademy.ru/" method="post">
           <label for="letter-email" class="visually-hidden">Ваш e-mail</label>
           <input class="field" placeholder="Ваш e-mail" type="email" name="letter-email" id="letter-email" required>
           <button class="button button-letter" type="submit">подписаться</button>
         </form>
       </section>
-
-      <section class="footer-social">
+      <div class="page-footer-conteiner">
+       <section class="footer-social">
         <h2 class="visually-hidden">Социальные сети</h2>
         <ul class="footer-social-list">
           <li class="footer-social-item">

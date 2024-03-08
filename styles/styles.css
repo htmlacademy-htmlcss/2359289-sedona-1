@@ -53,6 +53,7 @@ flex-grow: 1;
   width: 350px;
   margin: 0;
   padding: 0;
+  display: flex;
 }
 .navigation-user {
   width: 268px;
@@ -114,15 +115,16 @@ flex-grow: 1;
  background-color:#7db54f
 }
 .hero {
- display: flex;
- margin: 0;
- padding: 0;
  background-image: url("../images/main-background.jpg");
-  /*background-size: 100% auto;*/
+ background-size: cover;
  color:#ffffff;
  background-color:  #0b502a;
  background-repeat: no-repeat;
-}
+ }
+ .hero-hello {
+  display: block;
+  margin: 0 auto;
+ }
 .adventages-slogan-cedona, .service-slogan-cedona, .choosing-hotel-interest {
  font-size: 30px;
  font-weight: 700;
@@ -142,24 +144,20 @@ flex-grow: 1;
  padding: 0;
  list-style-type: none;
 }
-.adventages-mountains-oilytown {
-  display: block;
-  width: 800px;
-  margin: 0;
-  padding: 0;
-}
 .adventages-item {
- width: 400px;
- background-color: #82b3d3;
+  background-color: #82b3d3;
  color:#ffffff
+ }
+ .adventages-item-img {
+  width: 1200px;
+  display: flex;
  }
 .adventages-item-road {
  background-color: rgba(131, 179, 211, 0.2);
  color: #000000;
  width: 400px;
 }
-.adventages-item-square
-.adventages-item-tourist {
+.adventages-item-square, .adventages-item-tourist {
  background-color: rgba(131, 179, 211, 0.12);
  color: #000000;
  width: 400px;
@@ -196,14 +194,46 @@ flex-grow: 1;
   width: 400;
 }
 .page-footer-conteiner {
-
+display: flex;
+width: 1060px;
+margin: 0 auto;
 }
 .footer-letter {
   background-image: url("../images/footer/background-footer.jpg");
+  background-size: cover;
   color:#ffffff;
   background-color: #82b3d3;
   background-repeat: no-repeat;
-}
+  }
+  .footer-letter-title {
+  text-align: center;
+  }
+  .footer-letter-form {
+
+   display: flex;
+   width: 684px;
+   margin: 0 auto;
+  }
+.footer-social-list {
+  display: flex;
+  width: 150px;
+  margin: 0;
+  padding: 0;
+  margin-right: auto;
+  }
+  .footer-contact {
+    width: 720px;
+    margin: 0;
+    padding: 0;
+    text-align:center;
+  }
+  .footer-partner {
+    display: flex;
+    width: 115;
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+  }
 .footer-letter-catalog {
   color: #000000;
 }
