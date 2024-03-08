@@ -36,11 +36,11 @@ flex-grow: 1;
 .main-header {
  color: #000000;
  background-color: #ffffff;
+ margin-left: 70px;
+ margin-right: 70px;
 }
 .navigation {
   display: flex;
-  width: 1060px;
-  margin: 0 auto;
   }
 .navigation-logo {
   display: block;
@@ -176,7 +176,7 @@ flex-grow: 1;
  text-align: center;
  text-transform: uppercase;
 }
-.service-list, .list-style-type, .footer-social-item {
+.list-style-type, .footer-social-item {
   list-style-type: none;
 }
 .service-list {
@@ -185,6 +185,7 @@ flex-grow: 1;
   margin: 0;
   padding: 0;
   text-align: center;
+  list-style-type: none;
 }
 .service-item-meal {
   width: 400;
@@ -195,8 +196,8 @@ flex-grow: 1;
 }
 .page-footer-conteiner {
 display: flex;
-width: 1060px;
-margin: 0 auto;
+margin-left: 70px;
+margin-right: 70px;
 }
 .footer-letter {
   background-image: url("../images/footer/background-footer.jpg");
@@ -209,10 +210,12 @@ margin: 0 auto;
   text-align: center;
   }
   .footer-letter-form {
-
    display: flex;
    width: 684px;
    margin: 0 auto;
+  }
+  .field {
+    width: 100%;
   }
 .footer-social-list {
   display: flex;
@@ -245,7 +248,7 @@ margin: 0 auto;
 }
 .inner-header {
   background-image: url("../images/catalog/catalog-background.jpg");
-  /*background-size: 100% auto;*/
+  background-size: cover;
   color:#ffffff;
   background-color: #3c3e3f;
   background-repeat: no-repeat;
@@ -266,8 +269,14 @@ margin: 0 auto;
   line-height: 23px;
   list-style-type: none;
 }
-.hausing-card, .breadcrumbs-item, .pagination {
+.breadcrumbs-item {
   list-style-type: none;
+}
+.catalog-choice-housing {
+display: flex;
+padding: 0;
+margin-left: 70px;
+margin-right: 70px;
 }
 .hausing-card-type {
   font-size: 16px;
@@ -279,4 +288,29 @@ margin: 0 auto;
   line-height: 28px;
   color:#000000;
   text-decoration: none;
+  }
+.hausing-list {
+ display: flex;
+ flex-wrap: wrap;
+ padding: 0;
+ justify-content: space-between;
+ margin-left: 70px;
+ margin-right: 70px;
+ }
+.hausing-card {
+  width: 340px;
+  list-style-type: none;
+}
+.search-select-control {
+  display: flex;
+  padding: 0;
+  margin-left: 70px;
+  margin-right: 70px;
+  }
+.pagination {
+  display: flex;
+  padding: 0;
+  margin-left: 70px;
+  margin-right: 70px;
+  list-style-type: none;
 }
