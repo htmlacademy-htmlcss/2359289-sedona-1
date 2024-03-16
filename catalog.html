@@ -8,6 +8,7 @@
   </head>
 
   <body>
+    <div class="background-main">
 
     <header class="main-header">
       <nav class="navigation">
@@ -42,7 +43,7 @@
       </nav>
     </header>
 
-    <main class="main-inner">
+    <main class="main-conteiner main-inner" >
 
       <section class="inner-header">
         <h1 class="inner-header-title">Гостиницы Седоны</h1>
@@ -56,7 +57,7 @@
             <a class="breadcrumbs-link">Гостиницы</a>
           </li>
         </ul>
-
+      <section class="catalog-choice-housing">
         <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
           <h2 class="visually-hidden">Список гостиниц с фильтрами</h2>
 
@@ -106,15 +107,16 @@
                 </label>
               </li>
             </ul>
+          </section>
           </fieldset>
           <button class="button button-form button-form-apply" type="submit">Применить</button>
           <button class="button button-form button-form-reset" type="reset">Сбросить</button>
         </form>
       </section>
 
-      <section>
-        <h2 class="select-control">Найдено гостиниц:38</h2>
-        <select class="select-control" aria-label="Сортировка">
+      <section class="search-select-control">
+        <h2 class="search-control">Найдено гостиниц:38</h2>
+        <select class="select-control-" aria-label="Сортировка">
           <option value="popular">Сначала популярное</option>
           <option value="cheap">Сначала дешёвое</option>
           <option value="expensive">Сначала дорогое</option>
@@ -214,15 +216,17 @@
     <footer class="page-footer">
 
       <section class="footer-letter-catalog">
+        <div class="footer-letter-title">
         <h2 class="page-footer-title">Подпишитесь на рассылку</h2>
         <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
+        </div>
         <form class="footer-letter-form" action="https://echo.htmlacademy.ru/" method="post">
           <label for="letter-email" class="visually-hidden">Ваш e-mail</label>
           <input class="field" placeholder="Ваш e-mail" type="email" name="letter-email" id="letter-email" required>
           <button class="button button-letter" type="submit">подписаться</button>
         </form>
       </section>
-
+    <div class="page-footer-conteiner">
       <section class="footer-social">
         <h2 class="visually-hidden">Социальные сети</h2>
         <ul class="footer-social-list">
@@ -255,8 +259,9 @@
           <img class="partner-logo" src="images/footer/logo-html.svg" width="114.9" height="32.9" alt="htmlacademy логотип">
         </a>
       </section>
+    </div>
     </footer>
-
+   </div>
   </body>
 
 </html>
