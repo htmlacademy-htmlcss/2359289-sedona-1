@@ -51,7 +51,7 @@ body {
 .navigation-logo {
   display: block;
   width: 138px;
-  margin: 0;
+  margin: 0 0 -6px 0;
   padding: 0;
 }
 
@@ -101,6 +101,7 @@ body {
 }
 
 .button {
+  display: inline-block;
   font-family: inherit;
   font-weight: 700;
   text-align: center;
@@ -108,18 +109,27 @@ body {
   background-color: #756157;
   text-decoration: none;
   text-transform: uppercase;
-}
+  padding: 8px 30px 8px 30px;
+  border-radius: 4px;
+  width: 160px;
+  }
 
 .button-navigation,
 .hausing-card-button,
 .button-form {
   font-size: 16px;
   line-height: 20px;
+  margin-top: 14px;
+  margin-bottom: 14px;
+
 }
 
 .button-choosing-hotel {
   font-size: 20px;
   line-height: 36px;
+  border-radius: 4px;
+  width: 376px;
+  margin-bottom: 96px;
 }
 
 .button-letter {
@@ -137,27 +147,37 @@ body {
 }
 
 .hero {
+  display:block;
   background-image: url("../images/main-background.jpg");
   background-size: cover;
   color: #ffffff;
   background-color: #0b502a;
   background-repeat: no-repeat;
+  margin: 0 0 69px 0;
 }
 
 .hero-hello {
   display: block;
   margin: 0 auto;
+  padding-top: 51px;
+  padding-bottom: 82px;
 }
 
 .adventages-slogan-cedona,
 .service-slogan-cedona,
 .choosing-hotel-interest {
+  display: flex;
+  flex-wrap: wrap;
   font-size: 30px;
   font-weight: 700;
   line-height: 36px;
   text-align: center;
   text-transform: uppercase;
   color: #000000;
+  width: 720px;
+  margin: 0 auto 25px auto;
+  padding: 0;
+  justify-content: center;
 }
 
 .adventages-cedona,
@@ -166,6 +186,8 @@ body {
   font-size: 22px;
   line-height: 26px;
   text-align: center;
+  margin-top: 0;
+  margin-bottom: 69px;
 }
 
 .adventages-list {
@@ -174,11 +196,12 @@ body {
   margin: 0;
   padding: 0;
   list-style-type: none;
+  margin-bottom: 64px;
 }
 
 .adventages-item {
   background-color: #82b3d3;
-  color: #ffffff
+  color: #ffffff;
 }
 
 .adventages-item-img {
@@ -204,6 +227,7 @@ body {
   font-weight: 400;
   line-height: 21px;
   text-align: center;
+  margin: 0 85px 102px;
 }
 
 .adventages-title-color,
@@ -214,6 +238,8 @@ body {
   color: #000000;
   text-align: center;
   text-transform: uppercase;
+  margin: 102px 85px 0;
+
 }
 
 .adventages-title-color-white {
@@ -223,6 +249,10 @@ body {
   color: #ffffff;
   text-align: center;
   text-transform: uppercase;
+  margin-top: 102px;
+  margin-bottom: 62px;
+  margin-left: 85px;
+  margin-right: 85px;
 }
 
 .list-style-type,
@@ -237,6 +267,8 @@ body {
   padding: 0;
   text-align: center;
   list-style-type: none;
+  margin-bottom: 96px;
+
 }
 
 .service-item-meal {
@@ -247,15 +279,26 @@ body {
 .service-name-souvenirs {
   background-color: rgba(131, 179, 211, 0.12);
   width: 400;
+
+}
+
+.choosing-hotel {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .page-footer-conteiner {
   display: flex;
   margin-left: 70px;
   margin-right: 70px;
+  margin-bottom: 40px;
+  margin-top: 40px;
 }
 
 .footer-letter {
+  display: block;
   background-image: url("../images/footer/background-footer.jpg");
   background-size: cover;
   color: #ffffff;
@@ -286,10 +329,12 @@ body {
 }
 
 .footer-contact {
+  display: flex;
   width: 720px;
   margin: 0;
   padding: 0;
   text-align: center;
+  justify-content: center;
 }
 
 .footer-partner {
