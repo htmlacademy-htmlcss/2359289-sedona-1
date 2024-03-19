@@ -46,13 +46,14 @@ body {
 
 .navigation {
   display: flex;
+  margin: 0;
 }
 
-.navigation-logo {
+.navigation-logo-header {
   display: block;
   width: 138px;
   margin: 0 0 -6px 0;
-  padding: 0;
+  position: relative;
 }
 
 .navigation-list {
@@ -136,6 +137,7 @@ body {
   background-color: hsl(204, 48%, 67%);
   font-size: 20px;
   line-height: 36px;
+  width: 232px;
 }
 
 .selected-button {
@@ -178,6 +180,10 @@ body {
   margin: 0 auto 25px auto;
   padding: 0;
   justify-content: center;
+}
+
+.service-slogan-cedona {
+  width: 505px;
 }
 
 .adventages-cedona,
@@ -263,7 +269,6 @@ body {
 .service-list {
   display: flex;
   justify-content: space-between;
-  margin: 0;
   padding: 0;
   text-align: center;
   list-style-type: none;
@@ -271,6 +276,9 @@ body {
 
 }
 
+.service-item {
+  padding: 80px 85px ;
+}
 .service-item-meal {
   width: 400;
 }
@@ -297,6 +305,14 @@ body {
   margin-top: 40px;
 }
 
+.page-footer-title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  margin-bottom: 20px;
+
+}
+
 .footer-letter {
   display: block;
   background-image: url("../images/footer/background-footer.jpg");
@@ -304,10 +320,15 @@ body {
   color: #ffffff;
   background-color: #82b3d3;
   background-repeat: no-repeat;
+  padding: 96px 258px 104px;
 }
 
 .footer-letter-title {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26px;
   text-align: center;
+  margin-bottom: 54px;
 }
 
 .footer-letter-form {
@@ -318,14 +339,21 @@ body {
 
 .field {
   width: 100%;
+  padding: 12px 20px;
 }
 
 .footer-social-list {
   display: flex;
+  flex-wrap: wrap;
   width: 150px;
   margin: 0;
   padding: 0;
   margin-right: auto;
+}
+
+.page-footer-title-info {
+  width: 475px;
+  margin: 0 auto;
 }
 
 .footer-contact {
@@ -357,17 +385,20 @@ body {
 }
 
 .inner-header {
+  display: block;
   background-image: url("../images/catalog/catalog-background.jpg");
   background-size: cover;
   color: #ffffff;
   background-color: #3c3e3f;
   background-repeat: no-repeat;
+  margin: 0;
 }
 
 .inner-header-title {
   font-size: 60px;
   font-weight: 700;
   line-height: 78px;
+  margin-top: 0;
 }
 
 .catalog-filter-title {
